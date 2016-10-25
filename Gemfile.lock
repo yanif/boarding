@@ -100,7 +100,7 @@ GEM
     minitest (5.9.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    nokogiri (1.6.8.1-x64-mingw32)
+    nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     plist (3.2.0)
     puma (3.6.0)
@@ -172,7 +172,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.2-x64-mingw32)
+    unf_ext (0.0.7.2)
     web-console (2.3.0)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -180,7 +180,7 @@ GEM
       sprockets-rails (>= 2.0, < 4.0)
 
 PLATFORMS
-  x64-mingw32
+  ruby
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
@@ -197,8 +197,5 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
 
-RUBY VERSION
-   ruby 2.2.3p173
-
 BUNDLED WITH
-   1.13.6
+   1.11.2
